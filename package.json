@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
+<<<<<<< HEAD
     "seed:dev": "nodemon ./db/seed.js",
     "start": "node index.js",
     "start:dev": "nodemon index.js"
@@ -18,12 +19,24 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kaseycampbell/juicebox.git"
+=======
+    "seed:dev": "nodemon ./db/seed.js"
+>>>>>>> 1aed382ffd28ac4f0775d2e8950637c09460bd1b
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "bugs": {
     "url": "https://github.com/kaseycampbell/juicebox/issues"
   },
   "homepage": "https://github.com/kaseycampbell/juicebox#readme"
+=======
+  "dependencies": {
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+>>>>>>> 1aed382ffd28ac4f0775d2e8950637c09460bd1b
 }
